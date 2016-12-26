@@ -1,0 +1,1206 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WeeklyReport Maven Webapp 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> tomcat7-maven-plugin:2.2:run (default-cli) @ WeeklyReport >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ WeeklyReport ---
+[WARNING] Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ WeeklyReport ---
+[WARNING] File encoding has not been set, using platform encoding GBK, i.e. build is platform dependent!
+[INFO] Compiling 5 source files to D:\workspaceidea\WeeklyReport\target\classes
+[INFO] 
+[INFO] <<< tomcat7-maven-plugin:2.2:run (default-cli) @ WeeklyReport <<<
+[INFO] 
+[INFO] --- tomcat7-maven-plugin:2.2:run (default-cli) @ WeeklyReport ---
+[INFO] Running war on http://localhost:9090/
+[INFO] Creating Tomcat server configuration at D:\workspaceidea\WeeklyReport\target\tomcat
+[INFO] create webapp with contextPath: 
+十二月 26, 2016 11:00:39 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-9090"]
+十二月 26, 2016 11:00:39 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Tomcat
+十二月 26, 2016 11:00:39 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.47
+十二月 26, 2016 11:00:41 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+十二月 26, 2016 11:00:41 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+十二月 26, 2016 11:00:41 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+十二月 26, 2016 11:00:41 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+十二月 26, 2016 11:00:41 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+十二月 26, 2016 11:00:41 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+十二月 26, 2016 11:00:41 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+十二月 26, 2016 11:00:41 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+十二月 26, 2016 11:00:41 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+十二月 26, 2016 11:00:41 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+十二月 26, 2016 11:00:41 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+十二月 26, 2016 11:00:41 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+十二月 26, 2016 11:00:41 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+十二月 26, 2016 11:00:41 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+十二月 26, 2016 11:00:41 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+十二月 26, 2016 11:00:41 上午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+十二月 26, 2016 11:00:41 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+十二月 26, 2016 11:00:41 上午 org.springframework.web.context.ContextLoader initWebApplicationContext
+信息: Root WebApplicationContext: initialization started
+十二月 26, 2016 11:00:41 上午 org.springframework.web.context.support.XmlWebApplicationContext prepareRefresh
+信息: Refreshing Root WebApplicationContext: startup date [Mon Dec 26 11:00:41 CST 2016]; root of context hierarchy
+十二月 26, 2016 11:00:41 上午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from URL [file:/D:/workspaceidea/WeeklyReport/target/classes/applicationContext.xml]
+十二月 26, 2016 11:00:42 上午 org.springframework.context.support.PropertySourcesPlaceholderConfigurer loadProperties
+信息: Loading properties file from class path resource [jdbc.properties]
+十二月 26, 2016 11:00:42 上午 com.mchange.v2.log.MLog <clinit>
+信息: MLog clients using java 1.4+ standard logging.
+十二月 26, 2016 11:00:42 上午 com.mchange.v2.c3p0.C3P0Registry banner
+信息: Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+十二月 26, 2016 11:00:42 上午 org.springframework.web.context.ContextLoader initWebApplicationContext
+信息: Root WebApplicationContext: initialization completed in 681 ms
+十二月 26, 2016 11:00:42 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-9090"]
+十二月 26, 2016 11:02:21 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'spring'
+十二月 26, 2016 11:02:21 上午 org.springframework.web.servlet.DispatcherServlet initServletBean
+信息: FrameworkServlet 'spring': initialization started
+十二月 26, 2016 11:02:21 上午 org.springframework.web.context.support.XmlWebApplicationContext prepareRefresh
+信息: Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Mon Dec 26 11:02:21 CST 2016]; parent: Root WebApplicationContext
+十二月 26, 2016 11:02:21 上午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from URL [file:/D:/workspaceidea/WeeklyReport/target/classes/spring-mvc.xml]
+十二月 26, 2016 11:02:21 上午 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping registerHandler
+信息: Mapped URL path [/save] onto handler 'saveController'
+十二月 26, 2016 11:02:21 上午 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping registerHandler
+信息: Mapped URL path [/save.*] onto handler 'saveController'
+十二月 26, 2016 11:02:21 上午 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping registerHandler
+信息: Mapped URL path [/save/] onto handler 'saveController'
+十二月 26, 2016 11:02:21 上午 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping registerHandler
+信息: Mapped URL path [/initdata] onto handler 'saveController'
+十二月 26, 2016 11:02:21 上午 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping registerHandler
+信息: Mapped URL path [/initdata.*] onto handler 'saveController'
+十二月 26, 2016 11:02:21 上午 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping registerHandler
+信息: Mapped URL path [/initdata/] onto handler 'saveController'
+十二月 26, 2016 11:02:21 上午 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping registerHandler
+信息: Mapped URL path [/index] onto handler 'saveController'
+十二月 26, 2016 11:02:21 上午 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping registerHandler
+信息: Mapped URL path [/index.*] onto handler 'saveController'
+十二月 26, 2016 11:02:21 上午 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping registerHandler
+信息: Mapped URL path [/index/] onto handler 'saveController'
+十二月 26, 2016 11:02:21 上午 org.springframework.web.servlet.DispatcherServlet initServletBean
+信息: FrameworkServlet 'spring': initialization completed in 322 ms
+十二月 26, 2016 11:02:21 上午 org.springframework.web.servlet.PageNotFound noHandlerFound
+警告: No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'spring'
+十二月 26, 2016 11:02:31 上午 com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource getPoolManager
+信息: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2rw4fe9lfu335e19oc63n|1b2517a2, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2rw4fe9lfu335e19oc63n|1b2517a2, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/weekreport, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+content:<p align="center" style="text-align:center"><b><span style="font-size:16.0pt"><span style="font-family:宋体">商城研发部-零售平台-供应商平台第51周（12月11日-12月16日）工作周报</span></span></b></p>
+
+<p>&nbsp;</p>
+
+<p><span style="layout-grid-mode:char"><span style="font-size:12.0pt"><span style="font-family:宋体"><span style="color:black">报告期间：2016/12/11&mdash;2016/12/19</span></span></span></span></p>
+
+<p><span style="layout-grid-mode:char"><span style="font-size:12.0pt"><span style="font-family:宋体"><span style="color:black">提交人：许鹏</span></span></span></span></p>
+
+<p><span style="layout-grid-mode:char"><span style="font-size:12.0pt"><span style="font-family:宋体"><span style="color:black">提交日期：2016/12/16</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<h2 style="margin-left:33.0pt"><span lang="EN-US" style="font-family:宋体">一、</span><span style="font-family:宋体">本周重点工作</span></h2>
+
+<h3 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:10.5pt"><span style="font-family:宋体"><span style="color:#c0504d"><i>1.1&nbsp;</i>本周技术重点工作</span></span></h3>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:28.25pt"><span lang="EN-US" style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">1 </span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">动态定价：自动化定价系统开发完成，正在测试中，预计7月底正式上线；线上5个品类（一次性用品、调味品、玻璃杯、米面杂粮、骑行装备）总共1016个SKU进行了动态定价试点工作，从调价后一周的数据上看，总体效果还不错，其中一次性用品、调味品、玻璃杯这三个品类调价后gmv、销量、毛利都得到提升；米面杂粮、骑行装备效果有待验证；区域定价完成算法可行方案的论证，正在进行算法模型设计与研发工作，下周会具体讨论区域定价产品实施方案；继续支持滞销商品markdown定价工作；同时markdown开始多阶段定价模型研发，以及基于流量因素的建模分析工作；</span></span></h4>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:28.25pt"><span lang="EN-US" style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">2 </span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">天猫超市对标：向沈总汇报并获得认可，超市对标京东-天猫超市对标迭代开发第一版上线发布，包含超市整体商品数量对标、销售对标、品牌对标3个功能，数据初始化中，预计下周产品经理和消费品事业部汇报，并沟通立项事宜好供应链整体方案在商城研发部宣讲和发布；</span></span></h4>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:28.25pt"><span lang="EN-US" style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">3 </span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">冷静期正式全流量运行，有效降低在生产环节中的取消订单，预计约90w单/月，节约成本约173万/月；</span></span></h4>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:28.25pt"><span lang="EN-US" style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">4 </span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">奥威项目：替代性算法和品类划分角色算法,产品化数据计算开发.20%；</span></span></h4>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:28.25pt"><span lang="EN-US" style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">5 </span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">京东帮：奶牛项目,增加基础商品池和促销池和三级分类维表,改变返利规格.开发中.200%；</span></span></h4>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:28.25pt"><span lang="EN-US" style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">6 </span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">供应商罗盘：数据和平台搭建.20%；</span></span></h4>
+
+<p>&nbsp;</p>
+
+<h2 style="margin-left:33.0pt"><span lang="EN-US" style="font-family:宋体">二、</span><span style="font-family:宋体">本周详细工作进展</span></h2>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">1 </span><span style="font-family:宋体">【重点关注】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【奥威选品项目】替代性算法和品类划分角色算法,产品化数据计算开发.20%；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">2 </span><span style="font-family:宋体">【供应商数据】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京东帮】奶牛项目，增加基础商品池和促销池和三级分类维表，改变返利规格，开发中90%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商罗盘】数据和平台搭建.20%；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">3 </span><span style="font-family:宋体">【渠道下沉】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【奶牛1号项目（一期）】结算单生成逻辑调整+优化, 完成80%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京东与AUX对接EDI项目】单据线上联调，完成100%；预测单、销售计划单，增补计划单重试功能以及异步执行，完成100%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【跨境体验店】BUG修改，完成80%（等待结算系统安排测试时间）；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【母婴体验店项目（四期）】大客户返利功能开发，完成100%；功能优化，完成90%，报表优化，完成85%；大客户返利功能测试机BUG修改，完成80%；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">4 </span></span><span style="font-family:宋体">【</span><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">供应商协同</span></span><span style="font-family:宋体">】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】盖亚项目方案评估，完成88%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】ISV对外接口改造，研发中，完成85%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】服饰自营JIT改造项目，研发中，完成80%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】处方药改造项目，测试中；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】库房标准化，研发中，50%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】主图优化，研发中，50%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】山海关项目，研发中，30%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】实销实结项目，项目已确定，待开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】运营监控-服务规范优化、工作量、日清率优化接口联调完成；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】京东代运营服务单列表、京东代运营运营监控接口修改，待联调；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】误购取件费、退换无忧需求变更，开发中；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】满意度导出功能开发完成，待测试；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】升级京东处理服务单数量提示开发完成，待测试；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】聚宝盆异步退款接口沟通；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【大件备件库对接海尔项目】出库列表、出库明细接口、入库单列表、入库单明细、在库库存列表、出库单制单接口线上联调完成；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【大件备件库对接海尔项目】出库单确认收货待线上验证；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【返利开票项目】返利开票提测bug修改；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【新财务项目】结算单详情导出、OU字段、开票信息提测上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【实销实结项目】实销实结项目VC端需求确认；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【全球购商品线上备案项目】项目需求确认与立项备案,备案流程开发完毕进入调整阶段,port界面开发进行中；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC首页改版】第一期改版demo完成,召开评审会议根据会议内容做相关调整,部署demo预览环境.帮助中心,常见问题全文检索服务开发完毕；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【TimLine外联版项目】提供供应商用户数据同步mq,本周开发完毕,下周上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京盾系统自营抽检管理系统和风险调查池管理系统项目】邮件推送以及VC主页待办接口定制化开发,预计下周进行联调；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】持续进行与西门子，越海进行EDI对接的沟通，完成96%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】采购单状态变化抓取，并生成单据流程设计，完成100%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】小米对接采购单与手机串号对应关系数据需求及设计，完成80%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】三星数据排查，完成90%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】使用分布式Quartz替换zookeeper锁，完成100%</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京旺平台】完善缓存管理功能（增加店铺端缓存），完成1%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京旺平台】用户列表查询性能优化，完成100%</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京旺平台】门店上传附件格式头文件校验，完成100%；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">5 </span><span style="font-family:宋体">【VMS项目】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VMS】VMS库存金额大数据脚本开发，大数据集市表权限申请，完成100%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】二阶段功能设计，完成100%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】人员管理模块，完成90%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】产品线配置修改界面开发，完成100%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商清退】调整供应商清退计算应收账款计算逻辑，完成100%</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商清退】库存金额查询增加系统连接，完成100%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】产品线配置修改记录详情页开发，完成80%</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】二阶段管理员管理功能模块开发，完成20%</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">6 </span><span style="font-family:宋体">【厂直项目】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【在线系统运营】厂商直送运维及问题处理；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【厂直体验优化项目】线上运营优化；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【小需求】网上冲印合并发货；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【六艺旅行社项目】确认开发方案及开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【库存区域化项目】需求变更调研；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【小需求】JOS接口改造，增加批量出库接口；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【小需求】厂家直送系统出库查询改造；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">7 </span><span style="font-family:宋体">【供应商平台重要需求】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】移动装吧接入VC系统，测试中，完成80%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】全球购&ldquo;是否支持7天无理由退货&rdquo;字段默认为不支持，需求已确认，待开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】UPC唯一性校验改造，需求已确定，待开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】全球购新增一个部门，已上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】冷链标记下线，研发中，100%，待提测；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后管理】上门维修需求开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【采购单】设置运单信息增加支持闪购JIT以销定结单类型，已上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【采购单】品类分区，已上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【退货单】订单导入及详情页增加备注信息，已上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC图书】图书编辑页增加附加码信息,测试中；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC实时结算】实时结算新需求确定、提交验证接口增加；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【电子书结算】rest 接口转 JSF 接口开发改造（技术改造待开发）；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【结算金额线上支付】结算单对私支付，需求确认中；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【财务项目】开票信息导出、老erp接口功能下线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【DH 消息中心】web消息缓存推送接口设计；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC 主站】首页广告栏位布局调整,公共js ajax方法提出timeout字段方便配置.预计下周上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商后台管理系统】业务以及实现调研,初步需求收集以及基础框架搭建；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">8 </span><span style="font-family:宋体">【拓展项目】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【乡店移动端Android版】京旺促销需求发版上线、在京旺店铺后台页面新增分类列表、完善京旺App数据统计；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京商慧Android版】京商慧工单订单提测及bug修改,京商慧结算单界面修改及接口联调；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京商慧iOS版】工单订单功能提测及Bug处理,结算单功能联调 ,优化相关,crash接入；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【vlt】查询SQL优化；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【vlt/vpr】VLT查询增加两列结果开发，VPR订单属性需求完成；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VCS】代码整理，日常维护； </span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京旺乡店服务端】京旺乡店三级类目动态展示、商品列表促销标识服务端上线部署完毕；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京商慧服务端】京商慧结算单开发联调；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【统计报表】采购单时效报表调整、 京商慧数据统计报表、厂商直送数据统计方案制定；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">9 </span><span style="font-family:宋体">【技术优化】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【知识库数据表】知识库数据表迁移；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VCP主站缓存切换】</span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">老readis切jimdb.针对jimdb故障问题做调整</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VCP</span><span lang="EN-US" style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black"> library</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">】</span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">优化数据库索引字段合并联合查询提高查询效率</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">10 </span><span style="font-family:宋体">【供应商平台运营】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【诈骗订单】处理供应商反馈验证问题，及时协助变更手机号；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商平台】跟进运营问题及时相应和处理；上周运营问题分析；运营周会总结；VC平台权限部分相关运营; 协助财务实时结算权限导出和控制；VC协同平台日常运营；线上运维解决bug；返利单、工单、差评、结算问题解决； </span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【2017年服务器资源】整理17年整年组内计划服务器资源；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h2 style="margin-left:33.0pt"><span lang="EN-US" style="font-family:宋体">三、</span><span style="font-family:宋体">下周重点工作</span></h2>
+
+<h2 style="margin-left:1.0cm"><span lang="EN-US" style="font-size:12.0pt"><span style="line-height:173%"><span style="font-family:宋体">3.1 </span></span></span><span style="font-size:12.0pt"><span style="line-height:173%"><span style="font-family:宋体">供应商产品</span></span></span></h2>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">1 </span><span style="font-family:宋体">【重点关注】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【奥威选品项目】替代性算法和品类划分角色算法,产品化数据计算开发.50%；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">2 </span><span style="font-family:宋体">【供应商数据】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京东帮】奶牛项目,增加基础商品池和促销池和三级分类维表,改变返利规格,影子商品开发完成.90%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商评估】数据和平台搭建.50%；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">3 </span><span style="font-family:宋体">【渠道下沉】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【奶牛1号项目（一期）】结算单生成逻辑调整+优化；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京东与AUX对接EDI项目】系统推广阶段；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【跨境体验店】功能测试与BUG修改（等待结算系统安排测试时间）；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【母婴体验店项目（四期）】功能优化，报表优化；大客户返利功能测试机BUG修改；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">4 </span><span style="font-family:宋体">【供应商协同】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】盖亚项目方案评估，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】ISV对外接口改造，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】服饰自营JIT改造项目，研发;</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】处方药改造项目，研发并测试；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】库房标准化，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】主图优化，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】山海关项目，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】实销实结项目，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】误购取件费、退换无忧需求开发完成并上线； </span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】运营监控-服务规范优化、日清率优化、工作量、京东代运营服务单列表、京东代运营运营监控接口联调；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【返利开票项目】返利开票提测bug修改，配合测试；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【实销实结项目】实销实结项目VC端需求确认；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【实销实结项目】实销实结项目VC端需求确认；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【新财务项目】返利确认采销员离职bug修改；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【全球购商品线上备案项目】</span><span lang="EN-US" style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">vc</span></span></span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">和erp portal录入以及查询页面开发,流程表单调整测试</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC首页改版】</span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">一期demo改版,后续帮助中心,常见问题等页面demo制作.后台索引服务优化</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">【</span></span><span lang="EN-US" style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">TimLine</span></span></span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">外联版项目】提供供应商用户数据同步mq,联调测试并上线</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">【</span></span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">京盾系统自营抽检管理系统和风险调查池管理系统项目】邮件推送以及VC主页待办接口联调测试</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】持续进行与西门子，越海进行EDI对接的沟通；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】小米对接采购单与手机串号对应关系数据需求及设计；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】三星数据排查；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】SDV重构与小米数据对接开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京旺平台】完善缓存管理功能（增加店铺端缓存）；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">5 </span><span style="font-family:宋体">【VMS项目】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】人员管理模块；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】产品线配置修改记录详情页开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】二阶段管理员管理功能模块开发；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">6 </span><span style="font-family:宋体">【厂直项目】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【在线系统运营】厂商直送运维及问题处理；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【厂直体验优化项目】线上运营优化；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【六艺旅行社项目】确认开发方案及开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【库存区域化项目】需求变更调研；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【小需求】厂家直送数据统计需求； </span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【小需求】印尼配送改造需求；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">7 </span><span style="font-family:宋体">【供应商平台重要需求】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】移动装吧接入VC系统，测试；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】全球购&ldquo;是否支持7天无理由退货&rdquo;字段默认为不支持，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】UPC唯一性校验改造，需求已确定，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】冷链标记下线，测试；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC图书】图书编辑页增加附加码信息,测试完成并上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC实时结算】实时结算新需求确定、提交验证接口增加；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【电子书结算】rest接口转JSF接口开发改造（技术改造待开发）；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【结算金额线上支付】结算单对私支付，需求确认中；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【财务项目】开票信息导出、老erp接口功能下线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【DH 消息平台】主站推送方案测试；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【pipeline 工具类项目】项目评审以及解析；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商后台管理系统】业务以及实现调研,初步需求收集以及基础框架搭建；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">8 </span><span style="font-family:宋体">【拓展项目】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【乡店移动端Android版】京旺店铺后台页面新增分类列表、完善京旺App数据统计；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京商慧Android版】京商慧安卓开发及bug修复；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京商慧iOS版】持续优化；结算单功能提测；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【vlt】VLT查询增加两列结果开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VCS】日常维护VCS和零智； </span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京旺乡店服务端】联调测试支持；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京商慧服务端】商慧结算单联调测试支持；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【统计报表】厂商直送数据统计方案制定；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">9 </span><span style="font-family:宋体">【技术优化】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC library】数据性能优化进一步监控；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VCP主站缓存切换】</span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">针对切换后出现的问题做修复和排查</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">10 </span><span style="font-family:宋体">【供应商平台运营】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【诈骗订单】处理供应商反馈验证问题，及时协助变更手机号；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商平台】跟进运营问题及时相应和处理；上周运营问题分析；运营周会总结；VC平台权限部分相关运营；</span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif">协助财务实时结算权限导出和控制</span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；VC协同平台日常运营：线上运维解决bug；返利单、工单、差评、结算问题解决；</span></li>
+	</ol>
+	</li>
+</ol>
+
+content:<p align="center" style="text-align:center"><b><span style="font-size:16.0pt"><span style="font-family:宋体">商城研发部-零售平台-供应商平台第51周（12月11日-12月16日）工作周报</span></span></b></p>
+
+<p>&nbsp;</p>
+
+<p><span style="layout-grid-mode:char"><span style="font-size:12.0pt"><span style="font-family:宋体"><span style="color:black">报告期间：2016/12/11&mdash;2016/12/19</span></span></span></span></p>
+
+<p><span style="layout-grid-mode:char"><span style="font-size:12.0pt"><span style="font-family:宋体"><span style="color:black">提交人：许鹏</span></span></span></span></p>
+
+<p><span style="layout-grid-mode:char"><span style="font-size:12.0pt"><span style="font-family:宋体"><span style="color:black">提交日期：2016/12/16</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<h2 style="margin-left:33.0pt"><span lang="EN-US" style="font-family:宋体">一、</span><span style="font-family:宋体">本周重点工作</span></h2>
+
+<h3 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:10.5pt"><span style="font-family:宋体"><span style="color:#c0504d"><i>1.1&nbsp;</i>本周技术重点工作</span></span></h3>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:28.25pt"><span lang="EN-US" style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">1 </span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">动态定价：自动化定价系统开发完成，正在测试中，预计7月底正式上线；线上5个品类（一次性用品、调味品、玻璃杯、米面杂粮、骑行装备）总共1016个SKU进行了动态定价试点工作，从调价后一周的数据上看，总体效果还不错，其中一次性用品、调味品、玻璃杯这三个品类调价后gmv、销量、毛利都得到提升；米面杂粮、骑行装备效果有待验证；区域定价完成算法可行方案的论证，正在进行算法模型设计与研发工作，下周会具体讨论区域定价产品实施方案；继续支持滞销商品markdown定价工作；同时markdown开始多阶段定价模型研发，以及基于流量因素的建模分析工作；</span></span></h4>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:28.25pt"><span lang="EN-US" style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">2 </span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">天猫超市对标：向沈总汇报并获得认可，超市对标京东-天猫超市对标迭代开发第一版上线发布，包含超市整体商品数量对标、销售对标、品牌对标3个功能，数据初始化中，预计下周产品经理和消费品事业部汇报，并沟通立项事宜好供应链整体方案在商城研发部宣讲和发布；</span></span></h4>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:28.25pt"><span lang="EN-US" style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">3 </span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">冷静期正式全流量运行，有效降低在生产环节中的取消订单，预计约90w单/月，节约成本约173万/月；</span></span></h4>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:28.25pt"><span lang="EN-US" style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">4 </span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">奥威项目：替代性算法和品类划分角色算法,产品化数据计算开发.20%；</span></span></h4>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:28.25pt"><span lang="EN-US" style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">5 </span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">京东帮：奶牛项目,增加基础商品池和促销池和三级分类维表,改变返利规格.开发中.200%；</span></span></h4>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:28.25pt"><span lang="EN-US" style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">6 </span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">供应商罗盘：数据和平台搭建.20%；</span></span></h4>
+
+<p>&nbsp;</p>
+
+<h2 style="margin-left:33.0pt"><span lang="EN-US" style="font-family:宋体">二、</span><span style="font-family:宋体">本周详细工作进展</span></h2>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">1 </span><span style="font-family:宋体">【重点关注】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【奥威选品项目】替代性算法和品类划分角色算法,产品化数据计算开发.20%；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">2 </span><span style="font-family:宋体">【供应商数据】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京东帮】奶牛项目，增加基础商品池和促销池和三级分类维表，改变返利规格，开发中90%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商罗盘】数据和平台搭建.20%；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">3 </span><span style="font-family:宋体">【渠道下沉】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【奶牛1号项目（一期）】结算单生成逻辑调整+优化, 完成80%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京东与AUX对接EDI项目】单据线上联调，完成100%；预测单、销售计划单，增补计划单重试功能以及异步执行，完成100%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【跨境体验店】BUG修改，完成80%（等待结算系统安排测试时间）；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【母婴体验店项目（四期）】大客户返利功能开发，完成100%；功能优化，完成90%，报表优化，完成85%；大客户返利功能测试机BUG修改，完成80%；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">4 </span></span><span style="font-family:宋体">【</span><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">供应商协同</span></span><span style="font-family:宋体">】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】盖亚项目方案评估，完成88%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】ISV对外接口改造，研发中，完成85%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】服饰自营JIT改造项目，研发中，完成80%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】处方药改造项目，测试中；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】库房标准化，研发中，50%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】主图优化，研发中，50%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】山海关项目，研发中，30%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】实销实结项目，项目已确定，待开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】运营监控-服务规范优化、工作量、日清率优化接口联调完成；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】京东代运营服务单列表、京东代运营运营监控接口修改，待联调；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】误购取件费、退换无忧需求变更，开发中；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】满意度导出功能开发完成，待测试；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】升级京东处理服务单数量提示开发完成，待测试；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】聚宝盆异步退款接口沟通；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【大件备件库对接海尔项目】出库列表、出库明细接口、入库单列表、入库单明细、在库库存列表、出库单制单接口线上联调完成；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【大件备件库对接海尔项目】出库单确认收货待线上验证；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【返利开票项目】返利开票提测bug修改；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【新财务项目】结算单详情导出、OU字段、开票信息提测上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【实销实结项目】实销实结项目VC端需求确认；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【全球购商品线上备案项目】项目需求确认与立项备案,备案流程开发完毕进入调整阶段,port界面开发进行中；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC首页改版】第一期改版demo完成,召开评审会议根据会议内容做相关调整,部署demo预览环境.帮助中心,常见问题全文检索服务开发完毕；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【TimLine外联版项目】提供供应商用户数据同步mq,本周开发完毕,下周上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京盾系统自营抽检管理系统和风险调查池管理系统项目】邮件推送以及VC主页待办接口定制化开发,预计下周进行联调；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】持续进行与西门子，越海进行EDI对接的沟通，完成96%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】采购单状态变化抓取，并生成单据流程设计，完成100%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】小米对接采购单与手机串号对应关系数据需求及设计，完成80%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】三星数据排查，完成90%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】使用分布式Quartz替换zookeeper锁，完成100%</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京旺平台】完善缓存管理功能（增加店铺端缓存），完成1%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京旺平台】用户列表查询性能优化，完成100%</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京旺平台】门店上传附件格式头文件校验，完成100%；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">5 </span><span style="font-family:宋体">【VMS项目】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VMS】VMS库存金额大数据脚本开发，大数据集市表权限申请，完成100%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】二阶段功能设计，完成100%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】人员管理模块，完成90%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】产品线配置修改界面开发，完成100%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商清退】调整供应商清退计算应收账款计算逻辑，完成100%</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商清退】库存金额查询增加系统连接，完成100%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】产品线配置修改记录详情页开发，完成80%</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】二阶段管理员管理功能模块开发，完成20%</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">6 </span><span style="font-family:宋体">【厂直项目】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【在线系统运营】厂商直送运维及问题处理；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【厂直体验优化项目】线上运营优化；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【小需求】网上冲印合并发货；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【六艺旅行社项目】确认开发方案及开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【库存区域化项目】需求变更调研；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【小需求】JOS接口改造，增加批量出库接口；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【小需求】厂家直送系统出库查询改造；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">7 </span><span style="font-family:宋体">【供应商平台重要需求】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】移动装吧接入VC系统，测试中，完成80%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】全球购&ldquo;是否支持7天无理由退货&rdquo;字段默认为不支持，需求已确认，待开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】UPC唯一性校验改造，需求已确定，待开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】全球购新增一个部门，已上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】冷链标记下线，研发中，100%，待提测；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后管理】上门维修需求开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【采购单】设置运单信息增加支持闪购JIT以销定结单类型，已上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【采购单】品类分区，已上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【退货单】订单导入及详情页增加备注信息，已上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC图书】图书编辑页增加附加码信息,测试中；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC实时结算】实时结算新需求确定、提交验证接口增加；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【电子书结算】rest 接口转 JSF 接口开发改造（技术改造待开发）；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【结算金额线上支付】结算单对私支付，需求确认中；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【财务项目】开票信息导出、老erp接口功能下线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【DH 消息中心】web消息缓存推送接口设计；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC 主站】首页广告栏位布局调整,公共js ajax方法提出timeout字段方便配置.预计下周上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商后台管理系统】业务以及实现调研,初步需求收集以及基础框架搭建；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">8 </span><span style="font-family:宋体">【拓展项目】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【乡店移动端Android版】京旺促销需求发版上线、在京旺店铺后台页面新增分类列表、完善京旺App数据统计；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京商慧Android版】京商慧工单订单提测及bug修改,京商慧结算单界面修改及接口联调；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京商慧iOS版】工单订单功能提测及Bug处理,结算单功能联调 ,优化相关,crash接入；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【vlt】查询SQL优化；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【vlt/vpr】VLT查询增加两列结果开发，VPR订单属性需求完成；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VCS】代码整理，日常维护； </span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京旺乡店服务端】京旺乡店三级类目动态展示、商品列表促销标识服务端上线部署完毕；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京商慧服务端】京商慧结算单开发联调；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【统计报表】采购单时效报表调整、 京商慧数据统计报表、厂商直送数据统计方案制定；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">9 </span><span style="font-family:宋体">【技术优化】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【知识库数据表】知识库数据表迁移；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VCP主站缓存切换】</span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">老readis切jimdb.针对jimdb故障问题做调整</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VCP</span><span lang="EN-US" style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black"> library</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">】</span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">优化数据库索引字段合并联合查询提高查询效率</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">10 </span><span style="font-family:宋体">【供应商平台运营】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【诈骗订单】处理供应商反馈验证问题，及时协助变更手机号；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商平台】跟进运营问题及时相应和处理；上周运营问题分析；运营周会总结；VC平台权限部分相关运营; 协助财务实时结算权限导出和控制；VC协同平台日常运营；线上运维解决bug；返利单、工单、差评、结算问题解决； </span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【2017年服务器资源】整理17年整年组内计划服务器资源；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h2 style="margin-left:33.0pt"><span lang="EN-US" style="font-family:宋体">三、</span><span style="font-family:宋体">下周重点工作</span></h2>
+
+<h2 style="margin-left:1.0cm"><span lang="EN-US" style="font-size:12.0pt"><span style="line-height:173%"><span style="font-family:宋体">3.1 </span></span></span><span style="font-size:12.0pt"><span style="line-height:173%"><span style="font-family:宋体">供应商产品</span></span></span></h2>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">1 </span><span style="font-family:宋体">【重点关注】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【奥威选品项目】替代性算法和品类划分角色算法,产品化数据计算开发.50%；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">2 </span><span style="font-family:宋体">【供应商数据】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京东帮】奶牛项目,增加基础商品池和促销池和三级分类维表,改变返利规格,影子商品开发完成.90%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商评估】数据和平台搭建.50%；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">3 </span><span style="font-family:宋体">【渠道下沉】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【奶牛1号项目（一期）】结算单生成逻辑调整+优化；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京东与AUX对接EDI项目】系统推广阶段；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【跨境体验店】功能测试与BUG修改（等待结算系统安排测试时间）；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【母婴体验店项目（四期）】功能优化，报表优化；大客户返利功能测试机BUG修改；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">4 </span><span style="font-family:宋体">【供应商协同】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】盖亚项目方案评估，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】ISV对外接口改造，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】服饰自营JIT改造项目，研发;</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】处方药改造项目，研发并测试；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】库房标准化，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】主图优化，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】山海关项目，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】实销实结项目，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】误购取件费、退换无忧需求开发完成并上线； </span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】运营监控-服务规范优化、日清率优化、工作量、京东代运营服务单列表、京东代运营运营监控接口联调；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【返利开票项目】返利开票提测bug修改，配合测试；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【实销实结项目】实销实结项目VC端需求确认；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【实销实结项目】实销实结项目VC端需求确认；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【新财务项目】返利确认采销员离职bug修改；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【全球购商品线上备案项目】</span><span lang="EN-US" style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">vc</span></span></span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">和erp portal录入以及查询页面开发,流程表单调整测试</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC首页改版】</span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">一期demo改版,后续帮助中心,常见问题等页面demo制作.后台索引服务优化</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">【</span></span><span lang="EN-US" style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">TimLine</span></span></span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">外联版项目】提供供应商用户数据同步mq,联调测试并上线</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">【</span></span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">京盾系统自营抽检管理系统和风险调查池管理系统项目】邮件推送以及VC主页待办接口联调测试</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】持续进行与西门子，越海进行EDI对接的沟通；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】小米对接采购单与手机串号对应关系数据需求及设计；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】三星数据排查；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】SDV重构与小米数据对接开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京旺平台】完善缓存管理功能（增加店铺端缓存）；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">5 </span><span style="font-family:宋体">【VMS项目】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】人员管理模块；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】产品线配置修改记录详情页开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】二阶段管理员管理功能模块开发；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">6 </span><span style="font-family:宋体">【厂直项目】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【在线系统运营】厂商直送运维及问题处理；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【厂直体验优化项目】线上运营优化；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【六艺旅行社项目】确认开发方案及开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【库存区域化项目】需求变更调研；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【小需求】厂家直送数据统计需求； </span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【小需求】印尼配送改造需求；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">7 </span><span style="font-family:宋体">【供应商平台重要需求】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】移动装吧接入VC系统，测试；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】全球购&ldquo;是否支持7天无理由退货&rdquo;字段默认为不支持，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】UPC唯一性校验改造，需求已确定，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】冷链标记下线，测试；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC图书】图书编辑页增加附加码信息,测试完成并上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC实时结算】实时结算新需求确定、提交验证接口增加；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【电子书结算】rest接口转JSF接口开发改造（技术改造待开发）；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【结算金额线上支付】结算单对私支付，需求确认中；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【财务项目】开票信息导出、老erp接口功能下线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【DH 消息平台】主站推送方案测试；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【pipeline 工具类项目】项目评审以及解析；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商后台管理系统】业务以及实现调研,初步需求收集以及基础框架搭建；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">8 </span><span style="font-family:宋体">【拓展项目】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【乡店移动端Android版】京旺店铺后台页面新增分类列表、完善京旺App数据统计；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京商慧Android版】京商慧安卓开发及bug修复；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京商慧iOS版】持续优化；结算单功能提测；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【vlt】VLT查询增加两列结果开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VCS】日常维护VCS和零智； </span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京旺乡店服务端】联调测试支持；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京商慧服务端】商慧结算单联调测试支持；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【统计报表】厂商直送数据统计方案制定；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">9 </span><span style="font-family:宋体">【技术优化】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC library】数据性能优化进一步监控；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VCP主站缓存切换】</span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">针对切换后出现的问题做修复和排查</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">10 </span><span style="font-family:宋体">【供应商平台运营】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【诈骗订单】处理供应商反馈验证问题，及时协助变更手机号；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商平台】跟进运营问题及时相应和处理；上周运营问题分析；运营周会总结；VC平台权限部分相关运营；</span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif">协助财务实时结算权限导出和控制</span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；VC协同平台日常运营：线上运维解决bug；返利单、工单、差评、结算问题解决；</span></li>
+	</ol>
+	</li>
+</ol>
+
+content:<p align="center" style="text-align:center"><b><span style="font-size:16.0pt"><span style="font-family:宋体">商城研发部-零售平台-供应商平台第51周（12月11日-12月16日）工作周报</span></span></b></p>
+
+<p>&nbsp;</p>
+
+<p><span style="layout-grid-mode:char"><span style="font-size:12.0pt"><span style="font-family:宋体"><span style="color:black">报告期间：2016/12/11&mdash;2016/12/19</span></span></span></span></p>
+
+<p><span style="layout-grid-mode:char"><span style="font-size:12.0pt"><span style="font-family:宋体"><span style="color:black">提交人：许鹏</span></span></span></span></p>
+
+<p><span style="layout-grid-mode:char"><span style="font-size:12.0pt"><span style="font-family:宋体"><span style="color:black">提交日期：2016/12/17</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<h2 style="margin-left:33.0pt"><span lang="EN-US" style="font-family:宋体">一、</span><span style="font-family:宋体">本周重点工作</span></h2>
+
+<h3 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:10.5pt"><span style="font-family:宋体"><span style="color:#c0504d"><i>1.1&nbsp;</i>本周技术重点工作</span></span></h3>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:28.25pt"><span lang="EN-US" style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">1 </span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">动态定价：自动化定价系统开发完成，正在测试中，预计7月底正式上线；线上5个品类（一次性用品、调味品、玻璃杯、米面杂粮、骑行装备）总共1016个SKU进行了动态定价试点工作，从调价后一周的数据上看，总体效果还不错，其中一次性用品、调味品、玻璃杯这三个品类调价后gmv、销量、毛利都得到提升；米面杂粮、骑行装备效果有待验证；区域定价完成算法可行方案的论证，正在进行算法模型设计与研发工作，下周会具体讨论区域定价产品实施方案；继续支持滞销商品markdown定价工作；同时markdown开始多阶段定价模型研发，以及基于流量因素的建模分析工作；</span></span></h4>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:28.25pt"><span lang="EN-US" style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">2 </span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">天猫超市对标：向沈总汇报并获得认可，超市对标京东-天猫超市对标迭代开发第一版上线发布，包含超市整体商品数量对标、销售对标、品牌对标3个功能，数据初始化中，预计下周产品经理和消费品事业部汇报，并沟通立项事宜好供应链整体方案在商城研发部宣讲和发布；</span></span></h4>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:28.25pt"><span lang="EN-US" style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">3 </span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">冷静期正式全流量运行，有效降低在生产环节中的取消订单，预计约90w单/月，节约成本约173万/月；</span></span></h4>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:28.25pt"><span lang="EN-US" style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">4 </span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">奥威项目：替代性算法和品类划分角色算法,产品化数据计算开发.20%；</span></span></h4>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:28.25pt"><span lang="EN-US" style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">5 </span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">京东帮：奶牛项目,增加基础商品池和促销池和三级分类维表,改变返利规格.开发中.200%；</span></span></h4>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:28.25pt"><span lang="EN-US" style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">6 </span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">供应商罗盘：数据和平台搭建.20%；</span></span></h4>
+
+<p>&nbsp;</p>
+
+<h2 style="margin-left:33.0pt"><span lang="EN-US" style="font-family:宋体">二、</span><span style="font-family:宋体">本周详细工作进展</span></h2>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">1 </span><span style="font-family:宋体">【重点关注】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【奥威选品项目】替代性算法和品类划分角色算法,产品化数据计算开发.20%；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">2 </span><span style="font-family:宋体">【供应商数据】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京东帮】奶牛项目，增加基础商品池和促销池和三级分类维表，改变返利规格，开发中90%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商罗盘】数据和平台搭建.20%；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">3 </span><span style="font-family:宋体">【渠道下沉】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【奶牛1号项目（一期）】结算单生成逻辑调整+优化, 完成80%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京东与AUX对接EDI项目】单据线上联调，完成100%；预测单、销售计划单，增补计划单重试功能以及异步执行，完成100%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【跨境体验店】BUG修改，完成80%（等待结算系统安排测试时间）；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【母婴体验店项目（四期）】大客户返利功能开发，完成100%；功能优化，完成90%，报表优化，完成85%；大客户返利功能测试机BUG修改，完成80%；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">4 </span></span><span style="font-family:宋体">【</span><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="font-weight:normal">供应商协同</span></span><span style="font-family:宋体">】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】盖亚项目方案评估，完成88%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】ISV对外接口改造，研发中，完成85%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】服饰自营JIT改造项目，研发中，完成80%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】处方药改造项目，测试中；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】库房标准化，研发中，50%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】主图优化，研发中，50%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】山海关项目，研发中，30%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】实销实结项目，项目已确定，待开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】运营监控-服务规范优化、工作量、日清率优化接口联调完成；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】京东代运营服务单列表、京东代运营运营监控接口修改，待联调；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】误购取件费、退换无忧需求变更，开发中；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】满意度导出功能开发完成，待测试；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】升级京东处理服务单数量提示开发完成，待测试；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】聚宝盆异步退款接口沟通；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【大件备件库对接海尔项目】出库列表、出库明细接口、入库单列表、入库单明细、在库库存列表、出库单制单接口线上联调完成；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【大件备件库对接海尔项目】出库单确认收货待线上验证；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【返利开票项目】返利开票提测bug修改；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【新财务项目】结算单详情导出、OU字段、开票信息提测上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【实销实结项目】实销实结项目VC端需求确认；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【全球购商品线上备案项目】项目需求确认与立项备案,备案流程开发完毕进入调整阶段,port界面开发进行中；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC首页改版】第一期改版demo完成,召开评审会议根据会议内容做相关调整,部署demo预览环境.帮助中心,常见问题全文检索服务开发完毕；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【TimLine外联版项目】提供供应商用户数据同步mq,本周开发完毕,下周上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京盾系统自营抽检管理系统和风险调查池管理系统项目】邮件推送以及VC主页待办接口定制化开发,预计下周进行联调；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】持续进行与西门子，越海进行EDI对接的沟通，完成96%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】采购单状态变化抓取，并生成单据流程设计，完成100%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】小米对接采购单与手机串号对应关系数据需求及设计，完成80%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】三星数据排查，完成90%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】使用分布式Quartz替换zookeeper锁，完成100%</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京旺平台】完善缓存管理功能（增加店铺端缓存），完成1%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京旺平台】用户列表查询性能优化，完成100%</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京旺平台】门店上传附件格式头文件校验，完成100%；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">5 </span><span style="font-family:宋体">【VMS项目】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VMS】VMS库存金额大数据脚本开发，大数据集市表权限申请，完成100%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】二阶段功能设计，完成100%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】人员管理模块，完成90%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】产品线配置修改界面开发，完成100%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商清退】调整供应商清退计算应收账款计算逻辑，完成100%</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商清退】库存金额查询增加系统连接，完成100%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】产品线配置修改记录详情页开发，完成80%</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】二阶段管理员管理功能模块开发，完成20%</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">6 </span><span style="font-family:宋体">【厂直项目】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【在线系统运营】厂商直送运维及问题处理；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【厂直体验优化项目】线上运营优化；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【小需求】网上冲印合并发货；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【六艺旅行社项目】确认开发方案及开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【库存区域化项目】需求变更调研；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【小需求】JOS接口改造，增加批量出库接口；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【小需求】厂家直送系统出库查询改造；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">7 </span><span style="font-family:宋体">【供应商平台重要需求】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】移动装吧接入VC系统，测试中，完成80%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】全球购&ldquo;是否支持7天无理由退货&rdquo;字段默认为不支持，需求已确认，待开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】UPC唯一性校验改造，需求已确定，待开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】全球购新增一个部门，已上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】冷链标记下线，研发中，100%，待提测；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后管理】上门维修需求开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【采购单】设置运单信息增加支持闪购JIT以销定结单类型，已上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【采购单】品类分区，已上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【退货单】订单导入及详情页增加备注信息，已上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC图书】图书编辑页增加附加码信息,测试中；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC实时结算】实时结算新需求确定、提交验证接口增加；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【电子书结算】rest 接口转 JSF 接口开发改造（技术改造待开发）；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【结算金额线上支付】结算单对私支付，需求确认中；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【财务项目】开票信息导出、老erp接口功能下线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【DH 消息中心】web消息缓存推送接口设计；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC 主站】首页广告栏位布局调整,公共js ajax方法提出timeout字段方便配置.预计下周上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商后台管理系统】业务以及实现调研,初步需求收集以及基础框架搭建；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">8 </span><span style="font-family:宋体">【拓展项目】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【乡店移动端Android版】京旺促销需求发版上线、在京旺店铺后台页面新增分类列表、完善京旺App数据统计；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京商慧Android版】京商慧工单订单提测及bug修改,京商慧结算单界面修改及接口联调；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京商慧iOS版】工单订单功能提测及Bug处理,结算单功能联调 ,优化相关,crash接入；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【vlt】查询SQL优化；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【vlt/vpr】VLT查询增加两列结果开发，VPR订单属性需求完成；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VCS】代码整理，日常维护； </span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京旺乡店服务端】京旺乡店三级类目动态展示、商品列表促销标识服务端上线部署完毕；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京商慧服务端】京商慧结算单开发联调；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【统计报表】采购单时效报表调整、 京商慧数据统计报表、厂商直送数据统计方案制定；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">9 </span><span style="font-family:宋体">【技术优化】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【知识库数据表】知识库数据表迁移；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VCP主站缓存切换】</span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">老readis切jimdb.针对jimdb故障问题做调整</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VCP</span><span lang="EN-US" style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black"> library</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">】</span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">优化数据库索引字段合并联合查询提高查询效率</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">10 </span><span style="font-family:宋体">【供应商平台运营】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【诈骗订单】处理供应商反馈验证问题，及时协助变更手机号；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商平台】跟进运营问题及时相应和处理；上周运营问题分析；运营周会总结；VC平台权限部分相关运营; 协助财务实时结算权限导出和控制；VC协同平台日常运营；线上运维解决bug；返利单、工单、差评、结算问题解决； </span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【2017年服务器资源】整理17年整年组内计划服务器资源；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h2 style="margin-left:33.0pt"><span lang="EN-US" style="font-family:宋体">三、</span><span style="font-family:宋体">下周重点工作</span></h2>
+
+<h2 style="margin-left:1.0cm"><span lang="EN-US" style="font-size:12.0pt"><span style="line-height:173%"><span style="font-family:宋体">3.1 </span></span></span><span style="font-size:12.0pt"><span style="line-height:173%"><span style="font-family:宋体">供应商产品</span></span></span></h2>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">1 </span><span style="font-family:宋体">【重点关注】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【奥威选品项目】替代性算法和品类划分角色算法,产品化数据计算开发.50%；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">2 </span><span style="font-family:宋体">【供应商数据】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京东帮】奶牛项目,增加基础商品池和促销池和三级分类维表,改变返利规格,影子商品开发完成.90%；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商评估】数据和平台搭建.50%；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">3 </span><span style="font-family:宋体">【渠道下沉】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【奶牛1号项目（一期）】结算单生成逻辑调整+优化；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京东与AUX对接EDI项目】系统推广阶段；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【跨境体验店】功能测试与BUG修改（等待结算系统安排测试时间）；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【母婴体验店项目（四期）】功能优化，报表优化；大客户返利功能测试机BUG修改；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">4 </span><span style="font-family:宋体">【供应商协同】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】盖亚项目方案评估，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】ISV对外接口改造，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】服饰自营JIT改造项目，研发;</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】处方药改造项目，研发并测试；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】库房标准化，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】主图优化，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】山海关项目，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】实销实结项目，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】误购取件费、退换无忧需求开发完成并上线； </span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【售后三期】运营监控-服务规范优化、日清率优化、工作量、京东代运营服务单列表、京东代运营运营监控接口联调；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【返利开票项目】返利开票提测bug修改，配合测试；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【实销实结项目】实销实结项目VC端需求确认；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【实销实结项目】实销实结项目VC端需求确认；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【新财务项目】返利确认采销员离职bug修改；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【全球购商品线上备案项目】</span><span lang="EN-US" style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">vc</span></span></span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">和erp portal录入以及查询页面开发,流程表单调整测试</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC首页改版】</span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">一期demo改版,后续帮助中心,常见问题等页面demo制作.后台索引服务优化</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">【</span></span><span lang="EN-US" style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">TimLine</span></span></span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">外联版项目】提供供应商用户数据同步mq,联调测试并上线</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">【</span></span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">京盾系统自营抽检管理系统和风险调查池管理系统项目】邮件推送以及VC主页待办接口联调测试</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】持续进行与西门子，越海进行EDI对接的沟通；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】小米对接采购单与手机串号对应关系数据需求及设计；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】三星数据排查；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【EDI】SDV重构与小米数据对接开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京旺平台】完善缓存管理功能（增加店铺端缓存）；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">5 </span><span style="font-family:宋体">【VMS项目】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】人员管理模块；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】产品线配置修改记录详情页开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【山海关】二阶段管理员管理功能模块开发；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">6 </span><span style="font-family:宋体">【厂直项目】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【在线系统运营】厂商直送运维及问题处理；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【厂直体验优化项目】线上运营优化；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【六艺旅行社项目】确认开发方案及开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【库存区域化项目】需求变更调研；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【小需求】厂家直送数据统计需求； </span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【小需求】印尼配送改造需求；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">7 </span><span style="font-family:宋体">【供应商平台重要需求】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】移动装吧接入VC系统，测试；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】全球购&ldquo;是否支持7天无理由退货&rdquo;字段默认为不支持，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】UPC唯一性校验改造，需求已确定，研发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【商品系统】冷链标记下线，测试；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC图书】图书编辑页增加附加码信息,测试完成并上线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC实时结算】实时结算新需求确定、提交验证接口增加；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【电子书结算】rest接口转JSF接口开发改造（技术改造待开发）；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【结算金额线上支付】结算单对私支付，需求确认中；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【财务项目】开票信息导出、老erp接口功能下线；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【DH 消息平台】主站推送方案测试；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【pipeline 工具类项目】项目评审以及解析；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商后台管理系统】业务以及实现调研,初步需求收集以及基础框架搭建；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">8 </span><span style="font-family:宋体">【拓展项目】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【乡店移动端Android版】京旺店铺后台页面新增分类列表、完善京旺App数据统计；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京商慧Android版】京商慧安卓开发及bug修复；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京商慧iOS版】持续优化；结算单功能提测；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【vlt】VLT查询增加两列结果开发；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VCS】日常维护VCS和零智； </span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京旺乡店服务端】联调测试支持；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【京商慧服务端】商慧结算单联调测试支持；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【统计报表】厂商直送数据统计方案制定；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">9 </span><span style="font-family:宋体">【技术优化】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VC library】数据性能优化进一步监控；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【VCP主站缓存切换】</span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif"><span style="color:black">针对切换后出现的问题做修复和排查</span></span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；</span></li>
+	</ol>
+	</li>
+</ol>
+
+<h4 style="margin-top:0cm; margin-right:10.5pt; margin-bottom:.0001pt; margin-left:21.25pt"><span lang="EN-US" style="font-family:宋体">10 </span><span style="font-family:宋体">【供应商平台运营】</span></h4>
+
+<ol>
+	<li style="list-style-type:none">
+	<ol>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【诈骗订单】处理供应商反馈验证问题，及时协助变更手机号；</span></li>
+		<li><span style="font-family:&quot;微软雅黑&quot;,sans-serif">【供应商平台】跟进运营问题及时相应和处理；上周运营问题分析；运营周会总结；VC平台权限部分相关运营；</span><span style="background:white"><span style="font-family:&quot;微软雅黑&quot;,sans-serif">协助财务实时结算权限导出和控制</span></span><span style="font-family:&quot;微软雅黑&quot;,sans-serif">；VC协同平台日常运营：线上运维解决bug；返利单、工单、差评、结算问题解决；</span></li>
+	</ol>
+	</li>
+</ol>
+
+十二月 26, 2016 11:11:56 上午 org.springframework.web.servlet.PageNotFound noHandlerFound
+警告: No mapping found for HTTP request with URI [/weeklyreport/] in DispatcherServlet with name 'spring'
+十二月 26, 2016 11:11:57 上午 org.springframework.web.servlet.PageNotFound noHandlerFound
+警告: No mapping found for HTTP request with URI [/weeklyreport/] in DispatcherServlet with name 'spring'

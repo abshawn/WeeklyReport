@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:11:02:20 +0800] "GET / HTTP/1.1" 200 929 http-bio-9090-exec-1 614
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:11:02:21 +0800] "GET /libs/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 - http-bio-9090-exec-4 122
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:11:02:21 +0800] "GET /libs/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - http-bio-9090-exec-2 112
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:11:02:21 +0800] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-9090-exec-6 344
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:11:02:31 +0800] "GET /index HTTP/1.1" 200 4561 http-bio-9090-exec-7 99
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:11:02:31 +0800] "GET /ckeditor/plugin-ajax.js HTTP/1.1" 304 - http-bio-9090-exec-8 2
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:11:02:31 +0800] "POST /initdata HTTP/1.1" 200 38556 http-bio-9090-exec-9 608
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:11:02:32 +0800] "GET /mystyles.css HTTP/1.1" 304 - http-bio-9090-exec-10 2
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:11:08:12 +0800] "GET /index HTTP/1.1" 200 4561 http-bio-9090-exec-4 4
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:11:08:12 +0800] "POST /initdata HTTP/1.1" 200 38556 http-bio-9090-exec-4 19
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:11:08:18 +0800] "POST /save HTTP/1.1" 200 24 http-bio-9090-exec-4 131
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:11:08:19 +0800] "GET /index HTTP/1.1" 200 4561 http-bio-9090-exec-4 4
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:11:08:19 +0800] "GET /ckeditor/plugin-ajax.js HTTP/1.1" 304 - http-bio-9090-exec-4 1
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:11:08:19 +0800] "POST /initdata HTTP/1.1" 200 38556 http-bio-9090-exec-4 14
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:11:11:56 +0800] "GET /weeklyreport/ HTTP/1.1" 404 949 http-bio-9090-exec-7 8
+0:0:0:0:0:0:0:1 - - [26/Dec/2016:11:11:57 +0800] "GET /weeklyreport/ HTTP/1.1" 404 949 http-bio-9090-exec-7 2
