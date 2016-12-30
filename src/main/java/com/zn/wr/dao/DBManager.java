@@ -1,4 +1,4 @@
-package com.jd.wr.dao;
+package com.zn.wr.dao;
 
 import java.sql.Connection;  
 import java.sql.DriverManager;  

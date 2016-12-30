@@ -1,4 +1,4 @@
-package com.jd.wr.controller;
+package com.zn.wr.controller;
  
 
 import java.util.HashMap;
@@ -6,14 +6,13 @@ import java.util.Map;
 
 import javax.annotation.Resource;
 
+import com.zn.wr.dao.contentDAO;
+import com.zn.wr.model.Content;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody; 
- 
-import com.jd.wr.dao.contentDAO;
-import com.jd.wr.model.Content;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 
 @Controller

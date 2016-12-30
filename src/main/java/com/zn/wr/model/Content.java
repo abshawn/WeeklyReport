@@ -5,7 +5,7 @@
  * @author zhangnan12
  *
  */
-package com.jd.wr.model;
+package com.zn.wr.model;
 
 public class Content{
 	
